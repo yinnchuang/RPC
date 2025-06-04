@@ -1,9 +1,9 @@
-使用Java，SpringBoot+Netty手撕RPC。
-rpc_consumer为调用者客户端。
-rpc_provider为被调用的服务器端。
-rpc_protocol定义了RPC工具。
+使用Java，SpringBoot+Netty手撕RPC。\n
+rpc_consumer为调用者客户端。\n
+rpc_provider为被调用的服务器端。\n
+rpc_protocol定义了RPC工具。\n
 
-RPC传递消息如下：
+RPC传递消息如下：\n
 /*
 +----------------------------------------------+
 | 魔数 2byte | 序列化算法 1byte | 请求类型 1byte  |
